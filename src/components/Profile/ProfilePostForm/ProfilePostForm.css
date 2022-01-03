@@ -3,6 +3,7 @@
    display: flex;
    align-items: center;
    position: relative;
+   margin-bottom: 30px;
 }
 .profile-post__input {
     outline: none;
@@ -16,7 +17,7 @@
     border-radius: 70px;
     font-size: 18px;
     color: #fff;
-    border: 3px solid blueviolet;
+    border: 1px solid blueviolet;
 }
 .profile-post__input::placeholder {
     color: #fff;
