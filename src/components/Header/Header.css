@@ -13,6 +13,7 @@
   margin-bottom: 15px;
 }
 .header__login {
+  font-weight: bold;
   padding: 12px 33px 12px 33px;
   text-decoration: none;
   color: #fff;

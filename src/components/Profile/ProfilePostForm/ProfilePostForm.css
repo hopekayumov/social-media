@@ -5,6 +5,7 @@
    position: relative;
 }
 .profile-post__input {
+    outline: none;
     font-family: 'Rubik', sans-serif;
     position: relative;
     width: 100%;
@@ -15,12 +16,17 @@
     border-radius: 70px;
     font-size: 18px;
     color: #fff;
+    border: 3px solid blueviolet;
 }
 .profile-post__input::placeholder {
     color: #fff;
     font-size: 18px;
 }
 .profile-post__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
     font-family: 'Rubik', sans-serif;
     position: absolute;
     right: 10px;
@@ -32,4 +38,7 @@
     font-weight: 500;
     font-size: 20px;
     color: #fff;
+}
+.profile-post__btn img {
+    margin-right: 5px;
 }
